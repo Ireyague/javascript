@@ -1,4 +1,5 @@
-"use strict";
+'use strict';
+const prueba =5;
 const player0El=document.querySelector(".player--0"),
 player1El=document.querySelector(".player--1"),
 score0El=document.querySelector("#score--0"),
