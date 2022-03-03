@@ -4,6 +4,8 @@
   "description": "Autor:Irene Yagüe Rodriguez # curso-inaem-proyecto1 Pig game by Irene",
   "main": "index.js",
   "scripts": {
+    "start":"live-server code/index.html",
+    "pepe":"echo 'pepe'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,9 +19,9 @@
   },
   "homepage": "https://github.com/Ireyague/javascript#readme",
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4"
-  },
-  "dependencies": {}
+    "eslint-plugin-prettier": "^4.0.0",
+    "live-server": "^1.2.1"
+  }
 }
