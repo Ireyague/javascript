@@ -1,5 +1,6 @@
+Autor:Irene Yagüe Rodriguez
 # curso-inaem-proyecto1
-Pig game
+Pig game by Irene
 
 Gana el jugador que primero llega a 100 puntos.
 Cada vez que lanzas el dado acumulas puntos en tu turno.
