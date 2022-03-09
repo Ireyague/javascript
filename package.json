@@ -4,9 +4,11 @@
   "description": "Autor:Irene Yagüe Rodriguez # curso-inaem-proyecto1 Pig game by Irene",
   "main": "index.js",
   "scripts": {
-    "start":"live-server code/index.html",
-    "pepe":"echo 'pepe'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server --open=code/index.html",
+    "startprod": "live-server build/index.html",
+    "pepe": "echo 'pepe'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mincss": "csso code/style.css  --output build/styles.css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/Ireyague/javascript#readme",
   "devDependencies": {
+    "csso-cli": "^3.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-prettier": "^4.0.0",
